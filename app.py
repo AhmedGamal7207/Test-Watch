@@ -4,7 +4,7 @@ import os
 from flask import Flask, request, render_template
 import numpy as np
 import pandas as pd
-from tensorflow.keras.preprocessing import image
+from keras.preprocessing import image
 from tensorflow import keras
 from werkzeug.utils import secure_filename
 from phone_detection import *
